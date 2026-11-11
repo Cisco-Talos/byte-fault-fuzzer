@@ -1,0 +1,69 @@
+# Artifacts and cache output
+artifacts/*
+!artifacts/.gitkeep
+dev/
+_notes/
+.pytest_cache/
+
+# Local logs
+*.log
+
+# Packet captures
+*.pcap
+*.pcapng
+*.pcap.gz
+*.cap
+
+# Proxy captures (Burp, etc.)
+*.burp
+*.burp.xml
+*.burp.json
+
+# Compressed bundles
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Crash/core artifacts
+core.*
+*.core
+*.dmp
+*.dump
+
+# Test output / temp dirs
+tools/artifacts/
+*.tmp
+*.bak
+*.swp
+*.swo
+*.ldb
+*.sqlite
+*.sqlite3
+*.cache
+.cache/
+*.bin
+*.sql
+*.jsonl
+*.hex
+*.dup1
+*.dup2
+*.pub
+*.png
+*.pdf
+*.raw
+*.gpr
+*.prp
+*.rep/
+
+# Bytecode
+__pycache__/
+*.py[cod]
+
+*.egg-info/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.venv/

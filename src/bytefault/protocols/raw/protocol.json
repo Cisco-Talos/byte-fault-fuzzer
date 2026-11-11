@@ -1,0 +1,8 @@
+{
+  "format_version": 1,
+  "protocol_id": "raw",
+  "aliases": ["tcp-raw"],
+  "transport": "tcp",
+  "declaration": "declaration.json",
+  "defaults": {"port": null, "timeout": 3.0, "pre_delay": 0.0, "post_delay": 0.0}
+}

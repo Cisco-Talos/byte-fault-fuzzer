@@ -1,0 +1,4 @@
+# Headless Byte Fault Fuzzer has no third-party Python package dependencies.
+# Rich is optional for the Rich terminal view when running from source.
+# Source execution needs no package build dependency.
+# Selected features require system tools; see docs/USAGE.md.

@@ -1,0 +1,11 @@
+{
+  "declaration_id": "raw",
+  "version": 1,
+  "stages": ["send"],
+  "actions": [{
+    "action_id": "outbound",
+    "stage_id": "send",
+    "seed_hex": "",
+    "receive": {"requested": true, "cap": 4096, "deadline": 3.0}
+  }]
+}
